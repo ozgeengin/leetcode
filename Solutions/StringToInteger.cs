@@ -3,6 +3,7 @@ namespace Solutions
 {
     public class StringToInteger
     {
+        // todo
         public int MyAtoi(string s)
         {
             var result = 0;
