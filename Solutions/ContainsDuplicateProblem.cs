@@ -1,4 +1,5 @@
 ﻿// https://leetcode.com/problems/contains-duplicate
+
 namespace Solutions
 {
     public class ContainsDuplicateProblem

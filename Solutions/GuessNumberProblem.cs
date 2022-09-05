@@ -1,10 +1,11 @@
-﻿// https://leetcode.com/problems/guess-number-higher-or-lower/submissions/
+﻿// https://leetcode.com/problems/guess-number-higher-or-lower
 
 namespace Solutions
 {
     public class GuessNumberProblem
     {
         private readonly int Guessed;
+
         public GuessNumberProblem(int guessed)
         {
             Guessed = guessed;
@@ -20,7 +21,7 @@ namespace Solutions
                 long sum = right + (long)left;
                 int mid = (int)(sum / 2);
 
-                var guessResult = guess(mid);
+                var guessResult = Guess(mid);
                 if (guessResult == 0)
                 {
                     return mid;
@@ -39,7 +40,7 @@ namespace Solutions
         }
 
 
-        private int guess(int n)
+        private int Guess(int n)
         {
             if (n == Guessed) return 0;
             if(n> Guessed) return -1;

@@ -1,4 +1,5 @@
 ﻿// https://leetcode.com/problems/string-to-integer-atoi/
+
 namespace Solutions
 {
     public class StringToInteger

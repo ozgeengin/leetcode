@@ -1,5 +1,4 @@
-﻿//https://leetcode.com/problems/longest-palindromic-substring/
-using System.Text;
+﻿// https://leetcode.com/problems/longest-palindromic-substring/
 
 namespace Solutions
 {

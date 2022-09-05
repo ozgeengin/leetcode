@@ -23,7 +23,7 @@ namespace Solutions
                 }
             }
 
-            return null;
+            return new int[] {};
         }
     }
 }
